@@ -11,5 +11,12 @@ def update_services_state():
 
     #   get all the rows from the toupdate table 
 
-    #   
+    #   loop throuh them and if it is a 
+        #   start
+        #   restart
+        #   update
+
+    #   then do a query to delete the single record 
+
+    #   say that everything is up to date.
     pass

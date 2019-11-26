@@ -18,5 +18,7 @@ def add(endpoint,from_port,to_port,endpoint_name):
     pass
 
 def remove(name,id):
-    #   
+    #   calling remove will instantly remove the file assosiated with the port
+    #   as well as stop the service without the need to call the update function
+    #   then it will make sure to remove the entry from the sqlite db
     pass 
